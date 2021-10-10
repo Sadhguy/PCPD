@@ -1,0 +1,71 @@
+
+img{
+    width: 100%;
+}
+
+
+body, html{
+    height: 80%;
+    margin: 0;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.imgContainer1{
+    width: 100%;
+}
+
+.testimonio{
+    text-align: center;
+    color: white;
+    position:absolute;
+    top: 250%; 
+    left: 20%;
+}
+
+.portada{
+    text-align: center;
+    color: white;
+    position:absolute;
+    top: 30%; 
+    left:20%;
+}
+
+h1{
+    text-align: center;
+    font-size: 70px;
+    font-style: bold;
+}
+
+h2{
+    font-size: 40px;
+}
+
+.grafica{
+    margin-left: 10%;
+    background-color: blueviolet;
+    width: 80%;
+    height: 50%;
+    margin-bottom:150px;
+
+}
+
+.info1{
+    color:black;
+    width: 100%;
+    height: 5%;
+    text-align: center;
+    margin-top:100px;
+    margin-bottom:200px;
+}
+
+.map{
+    width: 85%;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.map path{
+    fill: rgb(88, 27, 27);
+    stroke:blueviolet;
+    stroke-width: 2px;
+}
