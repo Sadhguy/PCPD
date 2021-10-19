@@ -37,7 +37,7 @@ body, html{
 }
 
 button {
-    background-color: black; /* Green */
+    background-color: black;
     border: none;
     height: 100px;
     font-family:'Courier New', Courier, monospace;
