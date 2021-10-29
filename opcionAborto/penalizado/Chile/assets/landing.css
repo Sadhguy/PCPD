@@ -23,7 +23,7 @@ body, html{
     font-style: bold;
     font-size: larger;
     width: 70%;
-    top: 50%;
+    top: 30%;
     left: 50%;
     margin-top: -50px;
     margin-left: -425px;
@@ -33,7 +33,7 @@ body, html{
 
 .boton{
     position:absolute;
-    top: 90%;
+    top: 70%;
     left: 40%;
 }
 
