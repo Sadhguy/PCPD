@@ -7,19 +7,37 @@ img{
 body, html{
     height: 80%;
     margin: 0;
-    font-family:'Montserrat', sans-serif;
+    font-family:'Courier New', Courier, monospace;
+    text-decoration: none;
 }
 
 .imgContainer1{
     width: 100%;
 }
 
+.pImg{
+    -webkit-filter: brightness(50%);
+    filter: brightness(50%);
+}
+
 .portada{
+    width: 100%;
+    height: 100%;
     text-align: center;
     color: white;
     position:absolute;
-    top: 30%; 
-    left:20%;
+    top: -10%; 
+    left: 0%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.portada h1{
+    font-size: 350px;
+    margin-bottom: 10px;
+}
+
+.portada h2{
+    font-size: 30px;
 }
 
 h1{
@@ -97,23 +115,74 @@ h2{
     width: 100%;
     position:absolute;
     top: 350%;
-
 }
 
 .infogram-embed{
     margin: 5%;
 }
 
+.info2container{
+    position: absolute;
+    top: 514%;
+    width: 100%;
+}
+
+.info2{
+    color: white;
+    width: 90%;
+    text-align: center;
+    position: absolute;
+    top: 7%;
+    left: 5%;
+}
+
+.interactiva{
+    width: 100%;
+    height: 40%;
+    background-color: purple;
+    position: absolute;
+    top: 604%;
+}
+
+.boton{
+    position:absolute;
+    top: 40%;
+    left:28%;
+}
+
+button {
+    background-color: black;
+    border: none;
+    height: 100px;
+    font-family:'Courier New', Courier, monospace;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 40px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #fcfdfc; 
+    color: black;
+}
+
 footer{
     width: 100%;
+    height: 100%;
     position: absolute;
-    top: 495%;
+    top: 644%;
+    background-color: seagreen;
 }
 
 .tituloApoyo{
     color: white;
     position: absolute;
-    top: 2%;
+    top: 1%;
     left: 27%;
 }
 

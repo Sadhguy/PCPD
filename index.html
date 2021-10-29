@@ -1,25 +1,99 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com"> 
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap" rel="stylesheet">
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-        <link rel="stylesheet" href="stylesheets/basicStyle.css">
+        <link rel="stylesheet" href="stylesheets/stylesheetindex.css">
+        <div class="imgContainer">
+            <img class = "pImg" src="imgs/portada.jpeg">
+        </div>
+        <div class="portada">
+            <h1>Aborto</h1>
+            <h2>Datos del mundo, simulación interactiva y más información</h2>
+        </div>
     </head>
-    <body> 
-        <div class="container">
-            <div class ="text">
-                <h1>Supimos que estas embarazada</h1>
-                <h1>¿Qué quieres hacer?</h1>
+    <body>
+        <div class="infoContainer">
+            <div class="imgContainer">
+                <img class="infoImg" src="imgs/datos.jpg">
             </div>
-            <div class="boton1">
-                <form action="opcionTenerlo/eleccionPais.html">
-                    <button type="submit">Tenerlo</button>
-                </form>
+            <div class="info1">
+                <br><br>
+                <br><br>
+                <br><br>
+                <h1>47.000</h1>
+                <h2>Mujeres en el mundo fallecen cada año producto de un aborto no seguro</h2>
+                <br><br>
+                <br><br>
+                <h2>En todo el mundo se producen aprox.</h2>
+                <h1 id="n1">25.000.000</h1>
+                <h2>de abortos peligrosos cada año</h2>
             </div>
-            <div class="boton2">
-                <form action="opcionAborto/eleccionPais.html">
-                    <button type="submit">Abortar</button>
+        </div>
+        <div class="testContainer">
+            <div class="testimonio">
+                <h2>“En la tele pasaban dibujos animados mientras me realizaban el aborto por succión. <b>El dolor era insoportable</b>, era como diez veces el dolor de cólicos menstruales. Yo miraba por la pequeña ventana del consultorio y lo que veía era montones de basura humeante en la berma de la avenida. No sabía si la mujer que me realizaba el aborto era una doctora. Recuerdo sus manos llenas de joyas y su cabello cepillado. No estaba segura de que fuera doctora, pero no me atreví a preguntar.”</h2>
+                <h2>Teresa, Lima, 2015.</h2>
+            </div>
+            <div class="imgContainer">
+                <img src="imgs/testimonio.jpg">
+            </div>
+        </div>
+        <div class="map">
+            <div class="infogram-embed" data-id="acd706dc-a667-489a-909e-1bbb81b33398" data-type="interactive" data-title="Aborto en el mundo"></div><script>!function(e,i,n,s){var t="InfogramEmbeds",d=e.getElementsByTagName("script")[0];if(window[t]&&window[t].initialized)window[t].process&&window[t].process();else if(!e.getElementById(n)){var o=e.createElement("script");o.async=1,o.id=n,o.src="https://e.infogram.com/js/dist/embed-loader-min.js",d.parentNode.insertBefore(o,d)}}(document,0,"infogram-async");</script>
+        </div>
+        <div class="info2container">
+            <div class="info2">
+                <h2>La mayoría de las internaciones y muertes de mujeres se dan en los sectores más pobres de la sociedad, lo que no sólo implica que el objetivo de proteger la vida prenatal no se cumple, sino que la penalización del aborto acentúa la inequidad existente. Los países donde el aborto está despenalizado, no muestran complicaciones en la salud o internaciones por las complicaciones del aborto inseguro y menos aún muertes maternas.</h2>
+                <h3>Sebastiani, M. (2018). El aborto como un bien social. Revista de Bioética y Derecho, (43), 33-43.</h3>
+            </div>
+            <div class="info2Img">
+                <img src="imgs/apoyo.jpeg">
+            </div>
+        </div>
+        <div class="interactiva">
+            <div class="boton">
+                <form action="opcionAborto/penalizado/Chile/landing.html">
+                    <button type="submit">Simulación interactiva</button>
                 </form>
             </div>
         </div>
     </body>
+    <footer>
+        <div class="tituloApoyo">
+            <h1>Más información</h1>
+        </div>
+        <div class="apoyo1">
+            <a href="http://cf8m.cl/manual-aborto-seguro-con-pastillas-autogestionado/">
+                <img src="imgs/abortoSeguro.png" >
+            </a>
+        </div>
+        <div class="apoyo2">
+            <a href="https://mileschile.cl/">
+                <img src="imgs/miles.jpeg" >
+            </a>
+        </div>
+        <div class="apoyo3">
+            <a href="https://www.chileatiende.gob.cl/fichas/41507-ley-que-regula-la-despenalizacion-de-la-interrupcion-voluntaria-del-">
+                <img src="imgs/ley.jpeg" >
+            </a>
+        </div>
+        <div class="apoyo4">
+            <a href="https://www.instagram.com/conlasamigasyenlacasa/?hl=es-la">
+                <img src="imgs/amigas.jpeg" >
+            </a>
+        </div>
+        <div class="apoyo5">
+            <a href="https://mesaborto.cl/">
+                <img src="imgs/accion.jpeg" >
+            </a>
+        </div>
+        <div class="apoyo6">
+            <a href="https://www.es.amnesty.org/buscador/?L=0&id=10953&tx_solr%5Bq%5D=aborto">
+                <img src="imgs/aministia.jpeg" >
+            </a>
+        </div>
+    </footer>
 </html>
